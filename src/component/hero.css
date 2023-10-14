@@ -1,0 +1,33 @@
+/* H1 headline start from here */
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #b48244;
+}
+.child {
+  flex-grow: 1;
+  color: #ffffff;
+  flex-basis: 250px;
+  flex-shrink: 1;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  /* padding: auto 50px; */
+}
+
+.child:nth-child(2) {
+  align-self: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.service-card {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 275px;
+}
